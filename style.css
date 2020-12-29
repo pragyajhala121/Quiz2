@@ -1,0 +1,49 @@
+body{
+    height: 150;
+    width:auto;
+    background-image:url("https://i.pinimg.com/originals/4a/f7/f6/4af7f615ed95eefe503ef17d03aa9410.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    margin-top: -50;
+}
+.login_player1 , .login_player2{
+		background-color: rgb(255, 180, 211);
+        color: crimson;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name{
+	display: inline-block;
+	margin-left: 20px;
+    width: 30%;
+    border-color: rgb(255, 0, 170);
+    border-radius:100px;
+}
+#my_login{
+    
+        color: crimson;
+        background-image: linear-gradient( rgb(255, 139, 187), rgb(255, 0, 128));
+}
+input:focus {
+    border-color: rgb(255, 0, 170);
+    box-shadow: 2px 2px 5px rgb(255, 0, 200);
+
+  }
+.sending{
+    color: crimson;
+    background-image: linear-gradient( rgb(255, 139, 187), rgb(255, 0, 128));
+    margin-top: 10px;
+    width: 50px;
+}
+#output{
+background-color: white;
+border-radius: 100px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float:none;
+text-align: left;
+}
